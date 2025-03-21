@@ -1,1 +1,270 @@
-const _0x27eb6b=_0x41cd;(function(_0x278069,_0x271db6){const _0x492ad9=_0x41cd,_0x943932=_0x278069();while(!![]){try{const _0x2f5d39=-parseInt(_0x492ad9(0x1d3))/0x1+-parseInt(_0x492ad9(0x1e9))/0x2+parseInt(_0x492ad9(0x1ec))/0x3+-parseInt(_0x492ad9(0x1f6))/0x4+-parseInt(_0x492ad9(0x1bc))/0x5*(-parseInt(_0x492ad9(0x1e2))/0x6)+-parseInt(_0x492ad9(0x1d5))/0x7*(parseInt(_0x492ad9(0x1dd))/0x8)+parseInt(_0x492ad9(0x1de))/0x9;if(_0x2f5d39===_0x271db6)break;else _0x943932['push'](_0x943932['shift']());}catch(_0x2e5e95){_0x943932['push'](_0x943932['shift']());}}}(_0x6d72,0xcd99e),window['addEventListener'](_0x27eb6b(0x1f1),_0x2589da=>{const _0x5ae5b5=_0x27eb6b;_0x2589da[_0x5ae5b5(0x1bd)](),_0x2589da[_0x5ae5b5(0x1d2)]='';}));var bgMusic=document[_0x27eb6b(0x1f8)]('backgroundMusic'),clMusic=document[_0x27eb6b(0x1f8)](_0x27eb6b(0x1f5)),goMusic=document[_0x27eb6b(0x1f8)](_0x27eb6b(0x1eb)),eatMusic=document['getElementById'](_0x27eb6b(0x1c0));function changeStyle(_0x31cd5c,_0xf9f6b4,_0x5ecb10){const _0x5c9655=_0x27eb6b;_0x31cd5c[_0x5c9655(0x1c4)][_0xf9f6b4]=_0x5ecb10;}var help=document[_0x27eb6b(0x1f8)]('help'),viewHelp=document[_0x27eb6b(0x1f8)]('viewHelp'),result=document[_0x27eb6b(0x1f8)](_0x27eb6b(0x1da)),totalScore=document[_0x27eb6b(0x1f8)](_0x27eb6b(0x1c1)),totalTime=document[_0x27eb6b(0x1f8)](_0x27eb6b(0x1f9)),restart=document[_0x27eb6b(0x1f8)]('restart'),hrs=document[_0x27eb6b(0x1cb)]('[data-id=\x22hr\x22]');function toggleHelp(){const _0x1b77b5=_0x27eb6b;viewHelp[_0x1b77b5(0x1c4)][_0x1b77b5(0x1fc)]==='none'||!viewHelp[_0x1b77b5(0x1c4)]['display']?(clMusic[_0x1b77b5(0x1c2)](),changeStyle(viewHelp,_0x1b77b5(0x1fc),_0x1b77b5(0x1fa))):(clMusic[_0x1b77b5(0x1c2)](),changeStyle(viewHelp,_0x1b77b5(0x1fc),_0x1b77b5(0x1e4)));}help[_0x27eb6b(0x1d0)](_0x27eb6b(0x1fb),toggleHelp);var bg=document['getElementById']('background');function toggleTheme(){const _0x116ce7=_0x27eb6b;if(bg['style'][_0x116ce7(0x1e3)]==='black'||!bg[_0x116ce7(0x1c4)][_0x116ce7(0x1e3)])clMusic['play'](),changeStyle(document[_0x116ce7(0x1be)],_0x116ce7(0x1e3),'black'),changeStyle(bg,'backgroundColor',_0x116ce7(0x1e6)),changeStyle(bg,_0x116ce7(0x1f4),_0x116ce7(0x1c7)),changeStyle(gameArea,_0x116ce7(0x1ca),'2px\x20solid\x20white'),changeStyle(gameArea,_0x116ce7(0x1f4),_0x116ce7(0x1f7)),viewHelp[_0x116ce7(0x1e0)]['remove'](_0x116ce7(0x1bf)),viewHelp['classList'][_0x116ce7(0x1e1)](_0x116ce7(0x1e7)),result[_0x116ce7(0x1e0)][_0x116ce7(0x1cc)](_0x116ce7(0x1bf)),result[_0x116ce7(0x1e0)][_0x116ce7(0x1e1)](_0x116ce7(0x1e7)),hrs[_0x116ce7(0x1ed)](function(_0x279879){const _0x45d7d8=_0x116ce7;changeStyle(_0x279879,_0x45d7d8(0x1e3),_0x45d7d8(0x1bb)),changeStyle(_0x279879,_0x45d7d8(0x1f4),_0x45d7d8(0x1e8));});else(bg[_0x116ce7(0x1c4)][_0x116ce7(0x1e3)]===_0x116ce7(0x1e6)||!bg[_0x116ce7(0x1c4)][_0x116ce7(0x1e3)])&&(clMusic[_0x116ce7(0x1c2)](),changeStyle(document['body'],'backgroundColor','white'),changeStyle(bg,_0x116ce7(0x1e3),'black'),changeStyle(bg,_0x116ce7(0x1f4),'0px\x200px\x2010px\x205px\x20black'),changeStyle(gameArea,_0x116ce7(0x1ca),_0x116ce7(0x1fd)),changeStyle(gameArea,_0x116ce7(0x1f4),_0x116ce7(0x1e8)),viewHelp['classList']['remove'](_0x116ce7(0x1e7)),viewHelp[_0x116ce7(0x1e0)][_0x116ce7(0x1e1)](_0x116ce7(0x1bf)),result[_0x116ce7(0x1e0)]['remove'](_0x116ce7(0x1e7)),result[_0x116ce7(0x1e0)][_0x116ce7(0x1e1)]('darkOverlay'),hrs[_0x116ce7(0x1ed)](function(_0x10351b){const _0x4e0795=_0x116ce7;changeStyle(_0x10351b,_0x4e0795(0x1e3),_0x4e0795(0x1e6)),changeStyle(_0x10351b,_0x4e0795(0x1f4),_0x4e0795(0x1f7));}));}bg[_0x27eb6b(0x1d0)](_0x27eb6b(0x1fb),toggleTheme),document['addEventListener']('keydown',function(_0x404a65){const _0x335c79=_0x27eb6b;_0x404a65[_0x335c79(0x1f2)]===0x51&&(_0x404a65[_0x335c79(0x1bd)](),toggleTheme()),(_0x404a65['code']==='Space'||_0x404a65[_0x335c79(0x1f2)]===0x20)&&(!gameOver()&&(_0x404a65[_0x335c79(0x1bd)](),toggleStartStop())),(_0x404a65[_0x335c79(0x1f2)]===0xc0||_0x404a65[_0x335c79(0x1f2)]===0x48)&&(_0x404a65[_0x335c79(0x1bd)](),toggleHelp()),(_0x404a65['code']===_0x335c79(0x1c3)||_0x404a65[_0x335c79(0x1f2)]===0xd)&&(gameOver()&&(_0x404a65[_0x335c79(0x1bd)](),clickRestart()));});const gameArea=document[_0x27eb6b(0x1f8)](_0x27eb6b(0x1df)),gameAreaSize=0x190,cellSize=0x14;let snake=[{'x':0xa0,'y':0xc8},{'x':0x8c,'y':0xc8},{'x':0x78,'y':0xc8}],dx=cellSize,dy=0x0,food={'x':0x0,'y':0x0},score=0x0;var viewScore=document['getElementById'](_0x27eb6b(0x1fe));let isGameActive=![],gameInterval;const startStopBtn=document[_0x27eb6b(0x1f8)]('startStopBtn');var timer=0x0,timeInterval,viewTime=document[_0x27eb6b(0x1f8)](_0x27eb6b(0x1ce));function startTimer(){timeInterval=setInterval(function(){timer++,updateTimerDisplay();},0x3e8);}function stopTimer(){clearInterval(timeInterval);}function updateTimerDisplay(){const _0x102a72=_0x27eb6b;viewTime[_0x102a72(0x1dc)]=formatTime(timer);}function formatTime(_0x8cf197){const _0x3b54d0=_0x27eb6b,_0x482ca4=Math['floor'](_0x8cf197/0x3c),_0x556b97=_0x8cf197%0x3c;return _0x482ca4[_0x3b54d0(0x1ea)]()[_0x3b54d0(0x1ef)](0x2,'0')+':'+_0x556b97[_0x3b54d0(0x1ea)]()[_0x3b54d0(0x1ef)](0x2,'0');}function toggleStartStop(){const _0x3c28e6=_0x27eb6b;isGameActive?(clMusic[_0x3c28e6(0x1c2)](),clearInterval(gameInterval),bgMusic['pause'](),stopTimer(),isGameActive=![],startStopBtn[_0x3c28e6(0x1dc)]=_0x3c28e6(0x1e5),changeStyle(startStopBtn,'color',_0x3c28e6(0x1f3)),changeStyle(startStopBtn,'border','2px\x20solid\x20green'),changeStyle(startStopBtn,'textShadow',_0x3c28e6(0x1c6)),changeStyle(startStopBtn,_0x3c28e6(0x1f4),'0px\x200px\x205px\x200px\x20green')):(clMusic[_0x3c28e6(0x1c2)](),isGameActive=!![],bgMusic[_0x3c28e6(0x1c2)](),startTimer(),startStopBtn[_0x3c28e6(0x1dc)]=_0x3c28e6(0x1cf),changeStyle(startStopBtn,'color',_0x3c28e6(0x1db)),changeStyle(startStopBtn,_0x3c28e6(0x1ca),_0x3c28e6(0x1ff)),changeStyle(startStopBtn,_0x3c28e6(0x1cd),_0x3c28e6(0x1d1)),changeStyle(startStopBtn,'boxShadow','0px\x200px\x205px\x200px\x20red'),main());}startStopBtn['addEventListener'](_0x27eb6b(0x1fb),toggleStartStop);function clickRestart(){const _0x570086=_0x27eb6b;clMusic[_0x570086(0x1c2)](),window[_0x570086(0x1d6)][_0x570086(0x1f0)]();}function _0x41cd(_0x3a58e6,_0x49075f){const _0x6d725f=_0x6d72();return _0x41cd=function(_0x41cdaa,_0x2024db){_0x41cdaa=_0x41cdaa-0x1bb;let _0x156a33=_0x6d725f[_0x41cdaa];return _0x156a33;},_0x41cd(_0x3a58e6,_0x49075f);}function main(){const _0x46ec44=_0x27eb6b;isGameActive&&(gameOver()?(bgMusic[_0x46ec44(0x1ee)](),goMusic['play'](),stopTimer(),changeStyle(result,_0x46ec44(0x1fc),_0x46ec44(0x1fa)),totalScore['innerHTML']=score,totalTime[_0x46ec44(0x1d8)]=formatTime(timer),restart[_0x46ec44(0x1d0)](_0x46ec44(0x1fb),clickRestart)):gameInterval=setTimeout(function _0x28bcdb(){clearCanvas(),drawFood(),moveSnake(),drawSnake(),main();},0x64));}function gameOver(){const _0x40c177=_0x27eb6b;for(let _0x4b745f=0x4;_0x4b745f<snake[_0x40c177(0x1d9)];_0x4b745f++){const _0x1d171c=snake[_0x4b745f]['x']===snake[0x0]['x']&&snake[_0x4b745f]['y']===snake[0x0]['y'];if(_0x1d171c)return!![];}const _0x5cee61=snake[0x0]['x']<0x0,_0x271fa5=snake[0x0]['x']>=gameAreaSize,_0x1d9d63=snake[0x0]['y']<0x0,_0x55b6c7=snake[0x0]['y']>=gameAreaSize;return _0x5cee61||_0x271fa5||_0x1d9d63||_0x55b6c7;}function clearCanvas(){gameArea['innerHTML']='';}function createCell(_0x196cc5,_0x21e99c,_0x5cd5ef){const _0x26b307=_0x27eb6b,_0x5a5aea=document[_0x26b307(0x1c8)]('div');_0x5a5aea[_0x26b307(0x1c4)][_0x26b307(0x1c9)]=_0x196cc5+'px',_0x5a5aea[_0x26b307(0x1c4)][_0x26b307(0x1d4)]=_0x21e99c+'px',_0x5a5aea[_0x26b307(0x1e0)][_0x26b307(0x1e1)](_0x5cd5ef),gameArea['appendChild'](_0x5a5aea);}function drawSnake(){const _0x3726b=_0x27eb6b;snake[_0x3726b(0x1ed)](_0x963d2e=>createCell(_0x963d2e['x'],_0x963d2e['y'],'snake'));}function moveSnake(){const _0x58dcef=_0x27eb6b,_0x5afe55={'x':snake[0x0]['x']+dx,'y':snake[0x0]['y']+dy};snake['unshift'](_0x5afe55),_0x5afe55['x']===food['x']&&_0x5afe55['y']===food['y']?(eatMusic[_0x58dcef(0x1c2)](),score+=0xa,viewScore['innerHTML']=score,createFood()):snake[_0x58dcef(0x1d7)]();}function drawFood(){createCell(food['x'],food['y'],'food');}function randomFood(_0x34ca65,_0x51c0bd){return Math['round']((Math['random']()*(_0x51c0bd-_0x34ca65)+_0x34ca65)/cellSize)*cellSize;}function _0x6d72(){const _0xb967d6=['innerHTML','length','result','red','innerText','34688pBfYxh','27613665HwHNxD','gameArea','classList','add','5348766SlqBCt','backgroundColor','none','Start','white','lightOverlay','0px\x200px\x2010px\x200px\x20black','1843234zHuTbr','toString','gameOverMusic','4771878xbGNJT','forEach','pause','padStart','reload','beforeunload','keyCode','green','boxShadow','clickMusic','3810928ekjAyt','0px\x200px\x2010px\x200px\x20white','getElementById','totalTime','flex','click','display','2px\x20solid\x20black','score','2px\x20solid\x20red','black','5rTxeyq','preventDefault','body','darkOverlay','eatMusic','totalScore','play','Enter','style','keydown','0px\x200px\x2010px\x20green','0px\x200px\x2010px\x205px\x20white','createElement','left','border','querySelectorAll','remove','textShadow','timer','Stop','addEventListener','0px\x200px\x2010px\x20red','returnValue','1320517xyMBFS','top','2443qokGgh','location','pop'];_0x6d72=function(){return _0xb967d6;};return _0x6d72();}function createFood(){food['x']=randomFood(0x0,gameAreaSize-cellSize),food['y']=randomFood(0x0,gameAreaSize-cellSize);}document[_0x27eb6b(0x1d0)](_0x27eb6b(0x1c5),changeDirection);function changeDirection(_0x2cd7db){const _0x229de4=_0x27eb6b,_0x2bee69=_0x2cd7db[_0x229de4(0x1f2)],_0x1010c1=dy===-cellSize,_0xc5b75e=dy===cellSize,_0x2cc9d3=dx===cellSize,_0x786690=dx===-cellSize;if((_0x2bee69===0x25||_0x2bee69===0x41)&&!_0x2cc9d3)_0x2cd7db[_0x229de4(0x1bd)](),dx=-cellSize,dy=0x0;else{if((_0x2bee69===0x26||_0x2bee69===0x57)&&!_0xc5b75e)_0x2cd7db[_0x229de4(0x1bd)](),dx=0x0,dy=-cellSize;else{if((_0x2bee69===0x27||_0x2bee69===0x44)&&!_0x786690)_0x2cd7db[_0x229de4(0x1bd)](),dx=cellSize,dy=0x0;else(_0x2bee69===0x28||_0x2bee69===0x53)&&!_0x1010c1&&(_0x2cd7db['preventDefault'](),dx=0x0,dy=cellSize);}}}createFood(),main();
+window.addEventListener('beforeunload', (event) => {
+    event.preventDefault();
+    event.returnValue = '';
+});
+
+var bgMusic = document.getElementById('backgroundMusic');
+var clMusic = document.getElementById('clickMusic');
+var goMusic = document.getElementById('gameOverMusic');
+var eatMusic = document.getElementById('eatMusic');
+
+function changeStyle(elem, nameStyle, prop) {
+    elem.style[nameStyle] = prop;
+}
+
+var help = document.getElementById('help');
+var viewHelp = document.getElementById('viewHelp');
+var result = document.getElementById('result');
+var totalScore = document.getElementById('totalScore');
+var totalTime = document.getElementById('totalTime');
+var restart = document.getElementById('restart');
+var hrs = document.querySelectorAll('[data-id="hr"]');
+
+function toggleHelp() {
+    if (viewHelp.style.display === 'none' || !viewHelp.style.display) {
+        clMusic.play();
+        changeStyle(viewHelp, 'display', 'flex');
+    } else {
+        clMusic.play();
+        changeStyle(viewHelp, 'display', 'none');
+    }
+}
+
+help.addEventListener('click', toggleHelp);
+
+var bg = document.getElementById('background');
+
+function toggleTheme() {
+    if (bg.style.backgroundColor === 'black' || !bg.style.backgroundColor) {
+        clMusic.play();
+        changeStyle(document.body, 'backgroundColor', 'black');
+        changeStyle(bg, 'backgroundColor', 'white');
+        changeStyle(bg, 'boxShadow', '0px 0px 10px 5px white');
+        changeStyle(gameArea, 'border', '2px solid white');
+        changeStyle(gameArea, 'boxShadow', '0px 0px 10px 0px white');
+        viewHelp.classList.remove('darkOverlay');
+        viewHelp.classList.add('lightOverlay');
+        result.classList.remove('darkOverlay');
+        result.classList.add('lightOverlay');
+        hrs.forEach(function(hr) {
+            changeStyle(hr, 'backgroundColor', 'black');
+            changeStyle(hr, 'boxShadow', '0px 0px 10px 0px black');
+        });
+    } else if (bg.style.backgroundColor === 'white' || !bg.style.backgroundColor) {
+        clMusic.play();
+        changeStyle(document.body, 'backgroundColor', 'white');
+        changeStyle(bg, 'backgroundColor', 'black');
+        changeStyle(bg, 'boxShadow', '0px 0px 10px 5px black');
+        changeStyle(gameArea, 'border', '2px solid black');
+        changeStyle(gameArea, 'boxShadow', '0px 0px 10px 0px black');
+        viewHelp.classList.remove('lightOverlay');
+        viewHelp.classList.add('darkOverlay');
+        result.classList.remove('lightOverlay');
+        result.classList.add('darkOverlay');
+        hrs.forEach(function(hr) {
+            changeStyle(hr, 'backgroundColor', 'white');
+            changeStyle(hr, 'boxShadow', '0px 0px 10px 0px white');
+        });
+    }
+}
+
+bg.addEventListener('click', toggleTheme);
+document.addEventListener('keydown', function(event) {
+    if (event.keyCode === 81) {
+        event.preventDefault();
+        toggleTheme();
+    }
+    if (event.code === 'Space' || event.keyCode === 32) {
+        if (!gameOver()) {
+            event.preventDefault();
+            toggleStartStop();
+        }
+    }
+    if (event.keyCode === 192 || event.keyCode === 72) {
+        event.preventDefault();
+        toggleHelp();
+    }
+    if (event.code === 'Enter' || event.keyCode === 13) {
+        if (gameOver()) {
+            event.preventDefault();
+            clickRestart();
+        }
+    }
+});
+
+const gameArea = document.getElementById('gameArea');
+const gameAreaSize = 400;
+const cellSize = 20;
+let snake = [{x: 160, y: 200}, {x: 140, y: 200}, {x: 120, y: 200}];
+let dx = cellSize; 
+let dy = 0;
+let food = {x: 0, y: 0};
+let score = 0;
+var viewScore = document.getElementById('score');
+let isGameActive = false;
+let gameInterval;
+const startStopBtn = document.getElementById('startStopBtn');
+var timer = 0;
+var timeInterval;
+var viewTime = document.getElementById('timer')
+
+function startTimer() {
+    timeInterval = setInterval(function() {
+        timer++;
+        updateTimerDisplay();
+    }, 1000);
+}
+
+function stopTimer() {
+    clearInterval(timeInterval);
+}
+
+function updateTimerDisplay() {
+    viewTime.innerText = formatTime(timer);
+}
+
+function formatTime(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const secondsLeft = seconds % 60;
+    return minutes.toString().padStart(2, '0') + ':' + secondsLeft.toString().padStart(2, '0');
+}
+
+function toggleStartStop() {
+    if (isGameActive) {
+        clMusic.play();
+        clearInterval(gameInterval);
+        bgMusic.pause();
+        stopTimer();
+        isGameActive = false;
+        startStopBtn.innerText = 'Start';
+        changeStyle(startStopBtn, 'color', 'green');
+        changeStyle(startStopBtn, 'border', '2px solid green');
+        changeStyle(startStopBtn, 'textShadow', '0px 0px 10px green');
+        changeStyle(startStopBtn, 'boxShadow', '0px 0px 5px 0px green');
+    } else {
+        clMusic.play();
+        isGameActive = true;
+        bgMusic.play();
+        startTimer();
+        startStopBtn.innerText = 'Stop';
+        changeStyle(startStopBtn, 'color', 'red');
+        changeStyle(startStopBtn, 'border', '2px solid red');
+        changeStyle(startStopBtn, 'textShadow', '0px 0px 10px red');
+        changeStyle(startStopBtn, 'boxShadow', '0px 0px 5px 0px red');
+        main();
+    }
+}
+
+startStopBtn.addEventListener('click', toggleStartStop);
+
+function clickRestart() {
+    clMusic.play();
+    window.location.reload();
+}
+
+function main() {
+    if (isGameActive) {
+        if (gameOver()) {
+            bgMusic.pause();
+            goMusic.play();
+            stopTimer();
+            changeStyle(result, 'display', 'flex');
+            totalScore.innerHTML = score;
+            totalTime.innerHTML = formatTime(timer);
+            restart.addEventListener('click', clickRestart);
+        } else {
+            gameInterval = setTimeout(function onTick() {
+                clearCanvas();
+                drawFood();
+                moveSnake();
+                drawSnake();
+                main();
+            }, 100);
+        }
+    }
+}
+
+function gameOver() {
+    for (let i = 4; i < snake.length; i++) {
+        const collided = snake[i].x === snake[0].x && snake[i].y === snake[0].y;
+        if (collided) return true;
+    }
+    const hitLeftWall = snake[0].x < 0;
+    const hitRightWall = snake[0].x >= gameAreaSize;
+    const hitTopWall = snake[0].y < 0;
+    const hitBottomWall = snake[0].y >= gameAreaSize;
+    return hitLeftWall || hitRightWall || hitTopWall || hitBottomWall;
+}
+
+function clearCanvas() {
+    gameArea.innerHTML = '';
+}
+
+function createCell(x, y, className) {
+    const cell = document.createElement('div');
+    cell.style.left = `${x}px`;
+    cell.style.top = `${y}px`;
+    cell.classList.add(className);
+    gameArea.appendChild(cell);
+}
+
+function drawSnake() {
+    snake.forEach(part => createCell(part.x, part.y, 'snake'));
+}
+
+function moveSnake() {
+    const head = {x: snake[0].x + dx, y: snake[0].y + dy};
+    snake.unshift(head);
+    if (head.x === food.x && head.y === food.y) {
+        eatMusic.play();
+        score += 10;
+        viewScore.innerHTML = score;
+        createFood();
+    } else {
+        snake.pop();
+    }
+}
+
+function drawFood() {
+    createCell(food.x, food.y, 'food');
+}
+
+function randomFood(min, max) {
+    return Math.round((Math.random() * (max-min) + min) / cellSize) * cellSize;
+}
+
+function createFood() {
+    food.x = randomFood(0, gameAreaSize - cellSize);
+    food.y = randomFood(0, gameAreaSize - cellSize);
+}
+
+document.addEventListener('keydown', changeDirection);
+
+function changeDirection(event) {
+    const keyPressed = event.keyCode;
+    const goingUp = dy === -cellSize;
+    const goingDown = dy === cellSize;
+    const goingRight = dx === cellSize;
+    const goingLeft = dx === -cellSize;
+        
+    if ((keyPressed === 37 || keyPressed === 65) && !goingRight) {
+        event.preventDefault();
+        dx = -cellSize;
+        dy = 0;
+    } else if ((keyPressed === 38 || keyPressed === 87) && !goingDown) {
+        event.preventDefault();
+        dx = 0;
+        dy = -cellSize;
+    } else if ((keyPressed === 39 || keyPressed === 68) && !goingLeft) {
+        event.preventDefault();
+        dx = cellSize;
+        dy = 0;
+    } else if ((keyPressed === 40 || keyPressed === 83) && !goingUp) {
+        event.preventDefault();
+        dx = 0;
+        dy = cellSize;
+    }
+}
+
+createFood();
+main();
